@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand h1{
+    color: rgb(218, 89, 4);
+    
+}
+.navbar{
+    /* border:1px solid gray; */
+    background-color: white;
+    box-shadow: 0px 0px 8px gray;    
+}
+.nav-item a:hover{
+    background-color:rgb(218, 89, 4) ;
+    color: white;
+    border-radius: 5px;
+}
+.menu-ul{
+    gap: 20px;
+}
+.collection{
+        margin-top: 100px;
+        /* background-color: #eeeeeea8; */
+}
+.card{
+    box-shadow: 0px 0px 6px gray;
+}
+
+.size_ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+.size_ul li a{
+    height: 60px;
+    width: fit-content;
+    min-width: 60px;
+    border: 2px solid rgb(216, 207, 207);
+    color: black;
+    padding: 10px;
+}
+/* Account info */
+.account-info ul li{
+    box-shadow: 0px 0px 6px gray;
+    background-color: white;
+    width: 50% !important;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.account-info .nav-link:hover {
+    color: white;
+}
